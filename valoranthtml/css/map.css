@@ -1,0 +1,14 @@
+.map-flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.map-inner {
+  margin: 0 60px 60px 60px;
+}
+
+.map-flex img {
+  margin-top: 20px;
+    margin-left: 31px;
+    margin-right: 36px;
+}
