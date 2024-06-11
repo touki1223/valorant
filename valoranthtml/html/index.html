@@ -1,32 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>valorant</title>
-  <link rel="stylesheet" href="../css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>valorant</title>
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <!-- Header Start -->
-  <header class="site-header">
-    <div class="wrapper site-header__wrapper">
-      <a href="#" class="brand"><img src="../img/V_Logotype_Red.png" alt=""></a>
-      <nav class="nav">
-        <button class="nav__toggle" aria-expanded="false" type="button">
-          menu
-        </button>
-        <ul class="nav__wrapper">
-          <li class="nav__item"><a href="index.html">トップページ</a></li>
-          <li class="nav__item"><a href="game.html">ゲーム紹介</a></li>
-          <li class="nav__item"><a href="#">エージェント一覧</a></li>
-          <li class="nav__item"><a href="map.html">マップ一覧</a></li>
-          <li class="nav__item"><a href="#">武器一覧</a></li>
-          <li class="nav__item"><a href="#">vct結果</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- Header End -->
+<header class="fix_menu">
+<div id="home" class="rogo">
+  <a href="#" class="brand"><img src="../img/V_Logotype_Red.png" alt=""></a>
+</div>
+<input type="checkbox" id="switch">
+<label for="switch">
+<p><span></span></p>
+</label>
+<nav id="navwrap">
+<ul class="header_menu">
+  <li class="nav__item"><a href="index.html">トップページ</a></li>
+  <li class="nav__item"><a href="game.html">ゲーム紹介</a></li>
+  <li class="nav__item"><a href="kyara.html">エージェント一覧</a></li>
+  <li class="nav__item"><a href="map.html">マップ一覧</a></li>
+  <li class="nav__item"><a href="buki.html">武器一覧</a></li>
+  <li class="nav__item"><a href="kekka.html">vct結果</a></li>
+</ul>
+</nav>
+</header>
+
+
   <main>
     <div class="main-img">
       <img src="../img/Beta Key Art_VALORANT.jpg" alt="">
@@ -45,7 +46,7 @@
     <div class="game">
       <img src="../img/Reveal_Canopy_VALORANT.jpg" alt="">
     </div>
-    <div class="game-btn"><a href="game.html">
+    <div ><a href="game.html" class="game-btn">
       ゲーム説明はこちら</a>
     </div>
   </section>
@@ -60,10 +61,10 @@
                     <div class="trim-img"><img src="../img/Ep8a1_Defiance_Riot Client - Launch Game Background 2560x1440_.png" alt="" width="100%"></div>
                 </div>
             </a>
-            <a href="">
+            <a href="" >
                 <p>エージェント一覧</p>
             </a>
-            <a class="button" href="">詳細を確認する</a>
+            
         </li>
         <li>
             <h2>マップ一覧</h2> 
@@ -77,7 +78,7 @@
             <a href="">
                 <p>マップ一覧</p>
             </a>
-            <a class="button" href="">詳細を確認する</a>
+            
         </li>
         <li>
             <h2>武器一覧</h2> 
@@ -89,7 +90,7 @@
                 </div>
             </a>
             <a href=""><p>武器一覧</p></a>
-            <a class="button" href="" >詳細を確認する</a>
+           
         </li>
     </ul>
 </div>
@@ -103,21 +104,21 @@
                   <div class="trim-img"></div>
               </div>
           </a>
-          <a href="">
-              <p>vct PASIFIC試合結果へ</p>
+          <a href="" class="game-btn">
+              vct PASIFIC試合結果へ
           </a>
       </li>
       <li>
           <h2>vct AMERICAS試合結果</h2> 
-          <a href="">
+          <a href="" >
               <div class="shadow">
                   <div class="trim-img">
                       
                   </div>
               </div>
           </a>
-          <a href="">
-              <p>vct AMERICAS試合結果</p>
+          <a href=""  class="game-btn">
+              vct AMERICAS試合結果
           </a>
       </li>
       <li>
@@ -129,7 +130,8 @@
                   </div>
               </div>
           </a>
-          <a href=""><p>vct EMEA試合結果へ</p></a>
+          <a href=""  class="game-btn">
+            vct EMEA試合結果へ</a>
           
       </li>
   </ul>

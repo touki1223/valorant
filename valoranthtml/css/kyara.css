@@ -1,0 +1,61 @@
+.card-wrapper {
+ 
+  display: flex;
+  justify-content: space-between;
+  padding-left: 90px;
+    width: 85%;
+    padding-right: 90px;
+    text-align: center;
+}
+
+.card {
+  
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  flex-grow: 1;
+  
+}
+
+.card-content {
+  flex: 1 1 auto;
+  background: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  font-size: 10px;
+}
+
+.kyara-title {
+  text-align: center;
+}
+
+.kyara-title-s {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.table_design03 {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+.table_design03 th, .table_design03 td {
+  border-bottom: 2px solid #c1c7c6;
+  padding: 1em;
+}
+.table_design03 th {
+  border-bottom: 2px solid #4d9bc1;;
+  font-weight: bold;
+  text-align: center;
+  width: 20%;
+  min-width: 4em;
+}

@@ -8,7 +8,7 @@
 }
 
 .map-flex img {
-  margin-top: 20px;
-    margin-left: 31px;
-    margin-right: 36px;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
 }
