@@ -145,11 +145,19 @@ ul,li{
 .game-title {
   text-align: center;
   font-size: 40px;
+	font-family: "Zen Antique Soft", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .game-setumei {
   text-align: center;
   font-size: 20px;
+		font-family: "Zen Antique Soft", serif;
+		font-weight: 400;
+		font-style: normal;
+
+	
 }
 
 .game img {
