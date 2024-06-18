@@ -14,6 +14,12 @@
   flex-direction: column;
   object-fit: cover;
   flex-wrap: wrap;
+  margin: 5px;
+}
+
+.card img {
+  height: 60%;
+
 }
 
 .card-text {
@@ -64,4 +70,15 @@
   text-align: center;
   width: 20%;
   min-width: 4em;
+}
+@media screen and (max-width:768px) {
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  width: 85%;
+  padding-right: 0px;
+  text-align: center;
+  flex-wrap: wrap;
+}
 }

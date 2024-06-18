@@ -29,3 +29,20 @@ ol {
   background: #f3fbff;
   border: 2px skyblue dashed;
 }
+
+
+
+@media screen and (max-width:768px) {
+  .win-title {
+    font-size: 30px;
+  }
+
+  th, td {
+    border: 1px solid #FFF;
+    padding: 5px;
+  }
+
+  .game-li {
+    list-style: auto;
+  }
+}
