@@ -17,10 +17,7 @@
   margin: 5px;
 }
 
-.card img {
-  height: 60%;
 
-}
 
 .card-text {
   flex-grow: 1;
@@ -70,6 +67,9 @@
   text-align: center;
   width: 20%;
   min-width: 4em;
+}
+.card-content h2 {
+  font-size: 10px;
 }
 @media screen and (max-width:768px) {
 .card-wrapper {
